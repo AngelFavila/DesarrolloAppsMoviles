@@ -8,7 +8,7 @@ class ButtonsScreen extends StatelessWidget with AppBarCustom {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: appBarWithOutReturnButton(title: 'Buttons Screen'),
+      appBar: appBarWithoutReturnButton(title: 'Buttons Screen'),
       body: const _ButtonsView(),
       floatingActionButton: const ButtonReturnPage(),
     );
@@ -69,8 +69,8 @@ class _ButtonsView extends StatelessWidget {
               onPressed: () {},
               icon: const Icon(Icons.app_registration_outlined),
               style: ButtonStyle(
-                backgroundColor: MaterialStatePropertyAll(colors.primary),
-                iconColor: const MaterialStatePropertyAll(Colors.white),
+                backgroundColor: WidgetStatePropertyAll(colors.primary),
+                iconColor: const WidgetStatePropertyAll(Colors.white),
               ),
             ),
           ],

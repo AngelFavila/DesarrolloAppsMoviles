@@ -5,18 +5,18 @@ import 'package:go_router/go_router.dart';
 final slides = <SlideInfo>[
   SlideInfo(
     'Busca la comida',
-    'Exercitation voluptate cillum eu aute dolor irure aliquip.',
-    'assets/images/1.png',
+    'Elije lo que se te antoja',
+    'assets/images/static/1.png',
   ),
   SlideInfo(
     'Entrega rápida',
-    'Ullamco ullamco duis labore quis occaecat culpa laborum id incididunt.',
-    'assets/images/2.png',
+    'El repartidor llegará a tu puerta en minutos',
+    'assets/images/static/2.png',
   ),
   SlideInfo(
     'Disfruta la comida',
-    'Ea officia exercitation voluptate nostrud amet esse ut exercitation deserunt est enim est.',
-    'assets/images/3.png',
+    '¡Buen provecho!',
+    'assets/images/static/3.png',
   ),
 ];
 
