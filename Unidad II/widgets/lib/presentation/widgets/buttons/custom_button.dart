@@ -9,7 +9,6 @@ class CustomButton extends StatelessWidget {
     return ClipRRect(
       borderRadius: BorderRadius.circular(20),
       child: Material(
-        // color: Colors.blue,
         color: colors.primary,
         child: InkWell(
           onTap: () {},
